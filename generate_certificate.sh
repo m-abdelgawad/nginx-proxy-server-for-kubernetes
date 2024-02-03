@@ -6,6 +6,7 @@
 certbot certonly --agree-tos --standalone --expand \
 	-d automagicdeveloper.com \
 	-d www.automagicdeveloper.com \
+	-d jenkins.automagicdeveloper.com \
 	-d mohamedabdelgawad.online \
 	-d www.mohamedabdelgawad.online \
 		-m  muhammadabdelgawwad@gmail.com  --redirect --non-interactive
